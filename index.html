@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matic Production Backlog</title>
+<style>
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#FCF7E9;
+  color:#33312B;font:15px/1.6 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding:28px}
+.wrap{width:min(94vw,560px)}
+.logo{display:block;width:118px;height:auto;color:#33312B;margin-bottom:22px}
+h1{margin:0 0 4px;font-size:22px;font-weight:600;letter-spacing:-.01em}
+.sub{margin:0 0 24px;color:#6B6559;font-size:14px}
+a.card{display:block;background:#FFFDF6;border:1px solid #E4DCC5;border-radius:10px;
+  padding:20px 22px;margin-bottom:12px;text-decoration:none;color:inherit;
+  transition:border-color .12s, transform .12s}
+a.card:hover{border-color:#A79B80;transform:translateY(-1px)}
+a.card b{display:block;font-size:17px;font-weight:600;margin-bottom:3px}
+a.card span{color:#6B6559;font-size:13.5px}
+.note{margin-top:22px;padding-top:16px;border-top:1px solid #E4DCC5;
+  color:#6B6559;font-size:12.5px;line-height:1.65}
+.note b{color:#33312B}
+@media (prefers-reduced-motion:reduce){a.card{transition:none}}
+</style></head><body>
+<div class="wrap">
+  <svg class="logo" viewBox="0 0 1024 311" role="img" aria-label="Matic">
+<path d="M729.43 12C729.49 35.27 748.36 54.1 771.64 54.1C794.92 54.1 813.79 35.26 813.85 12H729.43Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M413.19 135.63C405.49 135.63 399.25 141.87 399.25 149.57V212.44C399.25 220.14 405.49 226.38 413.19 226.38H480.99V296.02H413.19C367.03 296.02 329.61 258.6 329.61 212.44C329.61 191.48 329.61 168.52 329.61 147.57C329.61 101.41 367.03 63.29 413.19 63.29H418.5C498.01 63.29 562.47 128.45 562.47 207.96V295.85H492.83V209.96C492.83 168.91 459.55 135.63 418.5 135.63H413.19Z" fill="currentColor"/>
+<path d="M574.32 12V223.21C574.32 264.94 608.15 298.77 649.88 298.77C691.61 298.77 725.44 264.94 725.44 223.21V147.48H655.8V223.21C655.8 226.48 653.15 229.13 649.88 229.13C646.61 229.13 643.96 226.48 643.96 223.21V135.51H725.48V66.22H643.96V12H574.32Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M737.42 296.02V66.22H807.06V296.03H737.42V296.02Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M886.91 213.54C886.91 221.14 893.15 227.3 900.85 227.3C938.06 227.3 975.27 227.3 1012.48 227.3V296.02H900.85C854.69 296.02 817.27 259.09 817.27 213.54V208.3C817.27 129.84 881.71 66.23 961.23 66.23H1012.49V135.48H961.23C920.19 135.48 886.91 167.79 886.91 208.3V213.54Z" fill="currentColor"/>
+<path d="M130.03 189.63C130.03 161.31 108.96 139.04 81.64 135.4V296.03H12V124.33C12 89.9901 38.83 63.1501 78.19 63.1501C111.98 63.1501 133.78 75.1901 153.92 88.9601C166.27 76.1201 177.02 63.6601 204.22 63.1501C257.51 62.1501 317.71 111.9 317.71 187.63V296.02H248.07V189.63C248.07 161.31 227 139.04 199.68 135.4V296.03H130.04V189.64L130.03 189.63Z" fill="currentColor"/>
+  </svg>
+
+  <h1>Production backlog</h1>
+  <p class="sub">Live shipping queues, refreshed through the day. Both pages are
+    password protected.</p>
+
+  <a class="card" href="Matic/">
+    <b>Matic Shipment Backlog</b>
+    <span>Unfulfilled robot orders, aged into urgency zones</span>
+  </a>
+
+  <a class="card" href="Hepa/">
+    <b>HEPA Bag Backlog</b>
+    <span>Outstanding bags by order date, against the 2-day ETA</span>
+  </a>
+
+  <div class="note">
+    <b>Password</b> &mdash; ask Shaf. The same one opens both pages.<br>
+    These pages carry customer order detail, so please don&rsquo;t forward the link
+    outside Matic.
+  </div>
+</div>
+</body></html>
